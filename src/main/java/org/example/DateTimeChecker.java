@@ -7,7 +7,7 @@ public class DateTimeChecker {
         int[] monthsWith30Days = {4, 6, 9, 11};
 
         if (contains(monthsWith31Days, month)){
-            return 31;
+            return 13;
         } else if(contains(monthsWith30Days, month)){
             return 30;
         } else if (month == 2) {
